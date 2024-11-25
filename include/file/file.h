@@ -1,12 +1,8 @@
 #pragma once
-#include <stdlib.h>
-#include <string>
+#include <string.h>
 
 struct File 
 {
-    char *path, *name;
+    char *path;
 };
 
-struct File *create_file(char path[], char name[]);
-
-void free_file(struct File *file);
